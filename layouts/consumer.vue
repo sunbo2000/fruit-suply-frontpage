@@ -19,7 +19,8 @@
         <span style="margin-right: 40px; cursor: pointer">
           <div
             style="display: inline-block; position: relative; top: 3px;  width: 40px; height: 40px; border-radius: 50px;background-color: aliceblue"></div>
-          <p style="display: inline-block; position: relative; top: -8px;  color: aliceblue; font-size: 25px;">登录</p>
+          <a href="/login"><p
+            style="display: inline-block; position: relative; top: -8px;  color: aliceblue; font-size: 25px;">登录</p></a>
         </span>
 
         <span style="cursor: pointer">
