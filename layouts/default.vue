@@ -1,38 +1,36 @@
 <template>
   <el-container>
-      <el-row>
-        <el-col :span="24">
-          <div class="top1">
-            <div class="slogan">果宝特供，您的云端农场</div>
-          </div>
-        </el-col>
-        <el-col :span-="24">
-          <div class="square">
-            <img class="logoUrl" src="~/assets/img/img.png" alt="logo"/>
-            <div class="logoFont">宝特供</div>
-            <input class="search" placeholder="来看看吧~"></input>
-            <button class="seaSquare">搜索</button>
-            <div class="el-icon-user"
-                 style=" display: inline-block; position: relative; margin-left: 100px; font-size: 35px;color: rgb(255,255,255); height: 35px;top: -28px;left: 360px;">
+      <el-header style="height: 110px; margin: 0; padding: 0px; border: 0">
+        <el-row>
+          <el-col :span="24">
+            <div class="top1">
+              <div class="slogan">果宝特供，您的云端农场</div>
             </div>
-            <div class="fontLogin">登录</div>
-            <div class="el-icon-shopping-cart-2"
-                 style="display: inline-block;  position: relative; width: 100px; font-size: 35px;color: rgb(255,255,255); height: 35px;top: -28px;left: 360px;">
+            <div class="square">
+              <img class="logoUrl" src="~/assets/img/img.png" alt="logo"/>
+              <div class="logoFont">宝特供</div>
+              <input class="search" placeholder="来看看吧~"></input>
+              <button class="seaSquare">搜索</button>
+              <div class="el-icon-user"
+                   style=" display: inline-block; position: relative; margin-left: 100px; font-size: 35px;color: rgb(255,255,255); height: 35px;top: -28px;left: 360px;">
+              </div>
+              <div class="fontLogin">登录</div>
+              <div class="el-icon-shopping-cart-2"
+                   style="display: inline-block;  position: relative; width: 100px; font-size: 35px;color: rgb(255,255,255); height: 35px;top: -28px;left: 360px;">
+              </div>
+              <div class="fontShop">购物车</div>
+              <div class="el-icon-s-help"
+                   style="display: inline-block;  position: relative; width: 100px; font-size: 35px;color: rgb(255,255,255); height: 35px;top: -28px;left: 300px;">
+              </div>
+              <div class="vip">vip</div>
+              <div class="el-icon-question"
+                   style="display: inline-block;  position: relative; width: 100px; font-size: 35px;color: rgb(255,255,255); height: 35px;top: -28px;left: 190px;">
+              </div>
+              <div class="help">帮助</div>
             </div>
-            <div class="fontShop">购物车</div>
-            <div class="el-icon-s-help"
-                 style="display: inline-block;  position: relative; width: 100px; font-size: 35px;color: rgb(255,255,255); height: 35px;top: -28px;left: 300px;">
-            </div>
-            <div class="vip">vip</div>
-            <div class="el-icon-question"
-                 style="display: inline-block;  position: relative; width: 100px; font-size: 35px;color: rgb(255,255,255); height: 35px;top: -28px;left: 190px;">
-            </div>
-            <div class="help">帮助</div>
-          </div>
-        </el-col>
-      </el-row>
-
-
+          </el-col>
+        </el-row>
+      </el-header>
     <nuxt/>
   </el-container>
 </template>

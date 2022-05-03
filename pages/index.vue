@@ -1,15 +1,12 @@
 <template>
   <!--  在这里写html,vue前端代码-->
-  <el-row>
-    <el-col :span="24">
-      <div class="web1">
-        <img class="square4" src="~/assets/img/img_1.png" alt="banner"/>
-        <img class="square5" src="~/assets/img/img_2.png" alt="logo">
-        <div class="des">果宝特供</div>
-      </div>
-    </el-col>
-  </el-row>
-
+  <el-main style="margin: 0; padding: 0; border: 0">
+    <div class="web1">
+      <img class="square4" src="~/assets/img/img_1.png" alt="banner"/>
+      <img class="square5" src="~/assets/img/img_2.png" alt="logo">
+      <div class="des">果宝特供</div>
+    </div>
+  </el-main>
 </template>
 
 <script>
@@ -29,37 +26,35 @@ export default {
 <style scoped>
 /*css 代码*/
 .web1 {
-  position: absolute;
-  width: 1920px;
-  height: 719px;
-  top: 98px;
+  position: relative;
+  width: 100%;
+  height: 800px;
   left: 0;
 
   background: rgb(255, 255, 255);
 }
+
 .square4 {
   position: absolute;
   width: 100%;
-  height: 719px;
-  top: 98px;
   left: 0;
 }
 
 .square5 {
   /* logo无字 1 */
-  position: absolute;
+  position: relative;
   width: 560px;
   height: 494px;
-  top: 164px;
+  top: 0px;
   left: -12px;
 }
 
 .des {
   /* 果宝特供 */
-  position: absolute;
+  position: relative;
   width: 415px;
   height: 128px;
-  top: 629px;
+  top: 0px;
   left: 61px;
 
 
