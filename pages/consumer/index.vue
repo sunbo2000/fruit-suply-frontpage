@@ -2,177 +2,167 @@
   <!--  在这里写html,vue前端代码-->
   <el-main style="margin: 0; padding: 0; border: 0">
     <div class="web">
+      <div class="page1">
 
-      <div class="tag">
-        <svg-icon style="font-size: 200px;" icon-class="consumer"/>
-      </div>
-      <div class="tag1">
-        <svg-icon style="font-size: 200px;" icon-class="seller"/>
-      </div>
-      <div class="tag2">
-        <svg-icon style="font-size: 200px;" icon-class="government"/>
-      </div>
-      <div class="tag3">
-        <svg-icon style="font-size: 200px;" icon-class="admin"/>
-      </div>
+        <svg-icon style="font-size: 200px; position: absolute; top: 130px; left: 250px;" icon-class="tip"/>
+        <div class="product">
+          <div class="div1">
+            <el-avatar class="new1" :size="size" :src="require('~/assets/img/img_3.png')" fit="cover"></el-avatar>
+            <p class="m">猕猴桃</p>
+            <p class="price">￥29.9</p>&nbsp;<p class="priceOld">￥20</p>
+          </div>
+          <div class="div1">
+            <el-avatar class="new1" :size="size" :src="require('~/assets/img/img_4.png')" fit="cover" alt="new1"/>
+            <p class="m">苹果</p>
+            <p class="price">￥29.9</p>&nbsp;<p class="priceOld">￥20</p>
+          </div>
+          <div class="div1">
+            <el-avatar class="new1" :size="size" :src="require('~/assets/img/img_5.png')" fit="cover" alt="new2"/>
+            <p class="m">"橙子</p>
+            <p class="price">￥29.9</p>&nbsp;<p class="priceOld">￥20</p>
+          </div>
+          <div class="div1">
+            <el-avatar class="new1" :size="size" :src="require('~/assets/img/img_6.png')" fit="cover" alt="new2"/>
+            <p class="m">车厘子</p>
+            <p class="price">￥29.9</p>&nbsp;<p class="priceOld">￥20</p>
+          </div>
+          <div class="div1">
+            <el-avatar class="new1" :size="size" :src="require('~/assets/img/img_8.png')" fit="cover" alt="new2"/>
+            <p class="m">菠萝</p>
+            <p class="price">￥29.9</p>&nbsp;<p class="priceOld">￥20</p>
+          </div>
+          <div class="div1">
+            <el-avatar class="new1" :size="size" :src="require('~/assets/img/img_7.png')" fit="cover" alt="new2"/>
+            <p class="m">草莓</p>
+            <p class="price">￥29.9</p>&nbsp;<p class="priceOld">￥20</p>
+          </div>
+        </div>
+        <!--    -->
+        <!--    分类-->
+        <div style="position: absolute; top:540px; left: 193px; width: 1063px;height: 224px;">
+          <div style="display: inline-block; height: 223px; text-align: center;">
+            <img style="opacity:0.6; width: 351px;" src="~/assets/img/img_10.png" alt="s"/>
+            <p
+              style=" color: rgb(255, 255, 255);z-index: 1; position: relative; font-weight: bold; top: -240px;font-size: 85px;font-family: '楷体', '楷体_GB2312', serif">
+              时鲜水果</p>
+          </div>
+          <div style="display: inline-block; height: 223px;text-align: center;">
+            <img style="opacity:0.6; width: 351px;" src="~/assets/img/img_11.png" alt="s"/>
+            <p
+              style=" color: rgb(255, 255, 255);z-index: 1; position: relative; font-weight: bold; top: -240px;font-size: 85px;font-family: '楷体', '楷体_GB2312', serif">
+              进口优果</p>
+          </div>
+          <div style="display: inline-block;height: 223px; text-align: center;">
+            <img style="opacity:0.6; width: 351px;" src="~/assets/img/img_12.png" alt="s"/>
+            <p
+              style=" color: rgb(255, 255, 255); z-index: 1; position: relative; font-weight: bold; top: -240px;font-size: 85px;font-family: '楷体', '楷体_GB2312', serif">
+              今日团购</p>
+          </div>
+        </div>
 
-      <svg-icon style="font-size: 200px; position: absolute; top: 130px; left: 160px;" icon-class="tip"/>
-      <div class="product">
-        <div class="div1">
-          <el-avatar class="new1" :size="size" :src="require('~/assets/img/img_3.png')" fit="cover"></el-avatar>
-          <p class="m">猕猴桃</p>
-          <p class="price">￥29.9</p>&nbsp;<p class="priceOld">￥20</p>
+        <svg-icon style="font-size: 200px; position: absolute; z-index: 1; top: 740px; left: 160px;" icon-class="suy"/>
+        <div class="square4">
+          <div style="display: inline-block; position: relative; top: 50px;">
+            <img style=" width: 351px;" src="~/assets/img/img_13.png" alt="s"/>
+            <p class="font5">
+              产地参观</p>
+          </div>
+          <div style="display: inline-block;position: relative; top: 50px;">
+            <img style=" width: 351px; height: 293px;" src="~/assets/img/img_14.png" alt="s"/>
+            <p class="font5">
+              生长过程</p>
+          </div>
+          <div style="display: inline-block; position: relative; top: 50px;">
+            <img style=" width: 351px;" src="~/assets/img/img_15.png" alt="s"/>
+            <p class="font5">
+              实施物流</p>
+          </div>
         </div>
-        <div class="div1">
-          <el-avatar class="new1" :size="size" :src="require('~/assets/img/img_4.png')" fit="cover" alt="new1"/>
-          <p class="m">苹果</p>
-          <p class="price">￥29.9</p>&nbsp;<p class="priceOld">￥20</p>
-        </div>
-        <div class="div1">
-          <el-avatar class="new1" :size="size" :src="require('~/assets/img/img_5.png')" fit="cover" alt="new2"/>
-          <p class="m">"橙子</p>
-          <p class="price">￥29.9</p>&nbsp;<p class="priceOld">￥20</p>
-        </div>
-        <div class="div1">
-          <el-avatar class="new1" :size="size" :src="require('~/assets/img/img_6.png')" fit="cover" alt="new2"/>
-          <p class="m">车厘子</p>
-          <p class="price">￥29.9</p>&nbsp;<p class="priceOld">￥20</p>
-        </div>
-        <div class="div1">
-          <el-avatar class="new1" :size="size" :src="require('~/assets/img/img_8.png')" fit="cover" alt="new2"/>
-          <p class="m">菠萝</p>
-          <p class="price">￥29.9</p>&nbsp;<p class="priceOld">￥20</p>
-        </div>
-        <div class="div1">
-          <el-avatar class="new1" :size="size" :src="require('~/assets/img/img_7.png')" fit="cover" alt="new2"/>
-          <p class="m">草莓</p>
-          <p class="price">￥29.9</p>&nbsp;<p class="priceOld">￥20</p>
-        </div>
-      </div>
-      <!--    -->
-      <!--    分类-->
-      <div style="position: absolute; top:540px; left: 193px; width: 1063px;height: 224px;">
-        <div style="display: inline-block; height: 223px; text-align: center;">
-          <img style="opacity:0.6; width: 351px;" src="~/assets/img/img_10.png" alt="s"/>
-          <p
-            style=" color: rgb(255, 255, 255);z-index: 1; position: relative; font-weight: bold; top: -240px;font-size: 85px;font-family: '楷体', '楷体_GB2312', serif">
-            时鲜水果</p>
-        </div>
-        <div style="display: inline-block; height: 223px;text-align: center;">
-          <img style="opacity:0.6; width: 351px;" src="~/assets/img/img_11.png" alt="s"/>
-          <p
-            style=" color: rgb(255, 255, 255);z-index: 1; position: relative; font-weight: bold; top: -240px;font-size: 85px;font-family: '楷体', '楷体_GB2312', serif">
-            进口优果</p>
-        </div>
-        <div style="display: inline-block;height: 223px; text-align: center;">
-          <img style="opacity:0.6; width: 351px;" src="~/assets/img/img_12.png" alt="s"/>
-          <p
-            style=" color: rgb(255, 255, 255); z-index: 1; position: relative; font-weight: bold; top: -240px;font-size: 85px;font-family: '楷体', '楷体_GB2312', serif">
-            今日团购</p>
-        </div>
-      </div>
-
-      <svg-icon style="font-size: 200px; position: absolute; z-index: 1; top: 740px; left: 160px;" icon-class="suy"/>
-      <div class="square4">
-        <div style="display: inline-block; position: relative; top: 50px;">
-          <img style=" width: 351px;" src="~/assets/img/img_13.png" alt="s"/>
-          <p class="font5">
-            产地参观</p>
-        </div>
-        <div style="display: inline-block;position: relative; top: 50px;">
-          <img style=" width: 351px; height: 293px;" src="~/assets/img/img_14.png" alt="s"/>
-          <p class="font5">
-            生长过程</p>
-        </div>
-        <div style="display: inline-block; position: relative; top: 50px;">
-          <img style=" width: 351px;" src="~/assets/img/img_15.png" alt="s"/>
-          <p class="font5">
-            实施物流</p>
-        </div>
-      </div>
-      <!--    -->
-      <svg-icon style="font-size: 200px; position: absolute; z-index: 1; top: 1200px; left: 160px;"
-                icon-class="commentTip"/>
-      <div class="banner1">
-        <el-carousel trigger="click" arrow="never" :interval="4000" height="480px">
-          <el-carousel-item v-for="(items,index) in commentList" :key="index">
-            <h3 class="medium">
-              <div
-                style="display: inline-block;  position: relative; top: 40px; width: 260px; height: 300px; margin-top: 20px; text-align: center">
+        <!--    -->
+        <svg-icon style="font-size: 200px; position: absolute; z-index: 1; top: 1200px; left: 160px;"
+                  icon-class="commentTip"/>
+        <div class="banner1">
+          <el-carousel trigger="click" arrow="never" :interval="4000" height="480px">
+            <el-carousel-item v-for="(items,index) in commentList" :key="index">
+              <h3 class="medium">
                 <div
-                  style="position:relative;  border-radius:15px; top: -30px; left: 35px; width: 200px;height: 110px; text-align: left;">
-                  <svg-icon style="font-size: 200px;  position: absolute;  top: -50px; left: -3px;"
-                            icon-class="comment"/>
-                  <p
-                    style="position: relative; top: -15px; font-size: 19px; width:188px; color:rgb(24, 77, 71); font-family: '方正舒体', serif; padding: 10px">
-                    {{ items[0].content }}</p>
-                  <p style="display: inline-block" v-if="items[0].content.length > 40">......</p>
+                  style="display: inline-block;  position: relative; top: 40px; width: 260px; height: 300px; margin-top: 20px; text-align: center">
+                  <div
+                    style="position:relative;  border-radius:15px; top: -30px; left: 35px; width: 200px;height: 110px; text-align: left;">
+                    <svg-icon style="font-size: 200px;  position: absolute;  top: -50px; left: -3px;"
+                              icon-class="comment"/>
+                    <p
+                      style="position: relative; top: -15px; font-size: 19px; width:188px; color:rgb(24, 77, 71); font-family: '方正舒体', serif; padding: 10px">
+                      {{ items[0].content }}</p>
+                    <p style="display: inline-block" v-if="items[0].content.length > 40">......</p>
+                  </div>
+                  <el-avatar style="border:2px solid rgb(157,239,52);" :size="150"
+                             :src="items[0].avatar"></el-avatar>
+                  <p>{{ items[1].name }}</p>
                 </div>
-                <el-avatar style="border:2px solid rgb(157,239,52);" :size="150"
-                           :src="items[0].avatar"></el-avatar>
-                <p>{{ items[1].name }}</p>
-              </div>
 
-              <div
-                style="display: inline-block;  position: relative; top: 40px; width: 260px; height: 300px; margin-top: 20px; text-align: center">
                 <div
-                  style="position:relative;  border-radius:15px; top: -30px; left: 35px; width: 200px;height: 110px; text-align: left;">
-                  <svg-icon style="font-size: 200px;  position: absolute;  top: -50px; left: -3px;"
-                            icon-class="comment"/>
-                  <p
-                    style="position: relative; top: -15px; font-size: 19px; width:188px; color:rgb(24, 77, 71); font-family: '方正舒体', serif; padding: 10px">
-                    {{ items[1].content }}</p>
-                  <p style="display: inline-block" v-if="items[1].content.length > 40">......</p>
+                  style="display: inline-block;  position: relative; top: 40px; width: 260px; height: 300px; margin-top: 20px; text-align: center">
+                  <div
+                    style="position:relative;  border-radius:15px; top: -30px; left: 35px; width: 200px;height: 110px; text-align: left;">
+                    <svg-icon style="font-size: 200px;  position: absolute;  top: -50px; left: -3px;"
+                              icon-class="comment"/>
+                    <p
+                      style="position: relative; top: -15px; font-size: 19px; width:188px; color:rgb(24, 77, 71); font-family: '方正舒体', serif; padding: 10px">
+                      {{ items[1].content }}</p>
+                    <p style="display: inline-block" v-if="items[1].content.length > 40">......</p>
 
+                  </div>
+                  <el-avatar style="border:2px solid rgb(157,239,52);" :size="150"
+                             :src="items[1].avatar"></el-avatar>
+                  <p>{{ items[1].name }}</p>
                 </div>
-                <el-avatar style="border:2px solid rgb(157,239,52);" :size="150"
-                           :src="items[1].avatar"></el-avatar>
-                <p>{{ items[1].name }}</p>
-              </div>
 
-              <div
-                style="display: inline-block;  position: relative; top: 40px; width: 260px; height: 300px; margin-top: 20px; text-align: center">
                 <div
-                  style="position:relative;  border-radius:15px; top: -30px; left: 35px; width: 200px;height: 110px; text-align: left;">
-                  <svg-icon style="font-size: 200px;  position: absolute;  top: -50px; left: -3px;"
-                            icon-class="comment"/>
-                  <p
-                    style="position: relative; top: -15px; font-size: 19px; width:188px; color:rgb(24, 77, 71); font-family: '方正舒体', serif; padding: 10px">
-                    {{ items[2].content }}</p>
-                  <p style="display: inline-block" v-if="items[2].content.length > 40">......</p>
+                  style="display: inline-block;  position: relative; top: 40px; width: 260px; height: 300px; margin-top: 20px; text-align: center">
+                  <div
+                    style="position:relative;  border-radius:15px; top: -30px; left: 35px; width: 200px;height: 110px; text-align: left;">
+                    <svg-icon style="font-size: 200px;  position: absolute;  top: -50px; left: -3px;"
+                              icon-class="comment"/>
+                    <p
+                      style="position: relative; top: -15px; font-size: 19px; width:188px; color:rgb(24, 77, 71); font-family: '方正舒体', serif; padding: 10px">
+                      {{ items[2].content }}</p>
+                    <p style="display: inline-block" v-if="items[2].content.length > 40">......</p>
+                  </div>
+                  <el-avatar style="border:2px solid rgb(157,239,52);" :size="150"
+                             :src="items[2].avatar"></el-avatar>
+                  <p>{{ items[1].name }}</p>
                 </div>
-                <el-avatar style="border:2px solid rgb(157,239,52);" :size="150"
-                           :src="items[2].avatar"></el-avatar>
-                <p>{{ items[1].name }}</p>
-              </div>
 
-              <div
-                style="display: inline-block;  position: relative; top: 40px; width: 260px; height: 300px; margin-top: 20px; text-align: center">
                 <div
-                  style="position:relative;  border-radius:15px; top: -30px; left: 35px; width: 200px;height: 110px; text-align: left;">
-                  <svg-icon style="font-size: 200px;  position: absolute;  top: -50px; left: -3px;"
-                            icon-class="comment"/>
-                  <p
-                    style="position: relative; top: -15px; font-size: 19px; width:188px; color:rgb(24, 77, 71); font-family: '方正舒体', serif; padding: 10px">
-                    {{ items[3].content }}</p>
-                  <p style="display: inline-block" v-if="items[3].content.length > 40">......</p>
+                  style="display: inline-block;  position: relative; top: 40px; width: 260px; height: 300px; margin-top: 20px; text-align: center">
+                  <div
+                    style="position:relative;  border-radius:15px; top: -30px; left: 35px; width: 200px;height: 110px; text-align: left;">
+                    <svg-icon style="font-size: 200px;  position: absolute;  top: -50px; left: -3px;"
+                              icon-class="comment"/>
+                    <p
+                      style="position: relative; top: -15px; font-size: 19px; width:188px; color:rgb(24, 77, 71); font-family: '方正舒体', serif; padding: 10px">
+                      {{ items[3].content }}</p>
+                    <p style="display: inline-block" v-if="items[3].content.length > 40">......</p>
+                  </div>
+                  <el-avatar style="border:2px solid rgb(157,239,52);" :size="150"
+                             :src="items[3].avatar"></el-avatar>
+                  <p>{{ items[1].name }}</p>
                 </div>
-                <el-avatar style="border:2px solid rgb(157,239,52);" :size="150"
-                           :src="items[3].avatar"></el-avatar>
-                <p>{{ items[1].name }}</p>
-              </div>
-            </h3>
-          </el-carousel-item>
-        </el-carousel>
+              </h3>
+            </el-carousel-item>
+          </el-carousel>
+        </div>
       </div>
     </div>
+
   </el-main>
 </template>
 <script>
 export default {
   data() {
     return {
-      size: 120,
+      size: 230,
       commentList: [
         [{
           avatar: 'https://thirdwx.qlogo.cn/mmopen/vi_32/EsJXOTiakxXib1M0r4FWnXpTWmCEM96ef7SsTEO3BHJttlGMvdyXFRmPYG1qSKDGA22anIrvzRgN3nRNhmEg1R7w/132',
@@ -244,17 +234,16 @@ export default {
 .web {
   /* web 1920 */
   position: relative;
+  width: 100%;
   height: 1800px;
-  left: 200px;
 }
-
 .tag {
   /* 消费者界面 */
   position: absolute;
   width: 271px;
   height: 129.72px;
   top: 0;
-  left: 192px;
+  left: 250px;
 }
 
 .tag1 {
@@ -288,10 +277,10 @@ export default {
 .product {
   /* 矩形 8 */
   position: absolute;
-  width: 1064px;
-  height: 280px;
+  width: 1700px;
+  height: 380px;
   top: 230px;
-  left: 193px;
+  left: 250px;
 
 
   background: rgba(215, 245, 109, 0.05);
@@ -303,9 +292,10 @@ export default {
 }
 
 .div1 {
-  width: 170px;
+  width: 279px;
   display: inline-block;
   height: 200px;
+  margin: 0px;
   text-align: center;
 }
 
@@ -317,7 +307,7 @@ export default {
 
   color: rgb(216, 74, 29);
   font-family: Noto Sans SC, serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0px;
@@ -326,7 +316,7 @@ export default {
 .price {
   /* ¥29.9 ¥39.9 */
   position: relative;
-  font-size: 20px;
+  font-size: 30px;
   top: 15px;
   color: rgb(216, 74, 29);
   display: inline-block;
@@ -335,7 +325,7 @@ export default {
 .priceOld {
   /* ¥29.9 ¥39.9 */
   position: relative;
-  font-size: 20px;
+  font-size: 25px;
   top: 15px;
   color: rgb(216, 74, 29);
   text-decoration: line-through;
