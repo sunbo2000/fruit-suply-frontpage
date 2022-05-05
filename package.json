@@ -21,6 +21,7 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
+    "@nuxt/types": "^2.15.8",
     "px2rem-loader": "^0.1.9",
     "svg-sprite-loader": "^6.0.11"
   }

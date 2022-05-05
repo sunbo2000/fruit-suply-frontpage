@@ -321,8 +321,9 @@ export default {
 <style scoped>
 .main{
   position: relative;
+  top: -100px;
   width: 100%;
-  height: 8000px;
+  height: 4600px;
   overflow: hidden;
 }
 /*css 代码*/
@@ -340,7 +341,7 @@ export default {
 .dynamic { /* 我的动态 */
   position: absolute;
   width: 90%;
-  height: 2400px;
+  height: 2200px;
   top: 950px;
   left: 100px;
   background: rgba(255, 100, 100, 0.1);
@@ -351,7 +352,7 @@ export default {
   position: absolute;
   width: 90%;
   height: 700px;
-  top: 3500px;
+  top: 3200px;
   left: 100px;
   background: rgba(255, 200, 109, 0.1);
 }
@@ -361,7 +362,7 @@ export default {
   position: absolute;
   width: 90%;
   height: 650px;
-  top: 4200px;
+  top: 3940px;
   left: 100px;
   background: rgba(100, 245, 200, 0.1);
 }
