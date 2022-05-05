@@ -322,7 +322,7 @@ export default {
 .main{
   position: relative;
   width: 100%;
-  height: 8000px;
+  height: 5000px;
   overflow: hidden;
 }
 /*css 代码*/
