@@ -6,9 +6,9 @@
       <div class="tag_supply">
         <svg-icon style="font-size: 200px; position: absolute; top: -50px; left: 10px;" icon-class="supply"/>
       </div>
-      <div class ="body"
-        style="background-color: rgba(0,0,0,0.1);position: absolute;height: 400px;width: 500px;top:100px;left: 20px;">
-        <div
+      <div class="body"
+           style="position: absolute;height: 400px;width: 500px;top:100px;left: 20px;">
+        <div class="block1"
           style="position:absolute;height: 400px;width: 500px;top: 0;left: 0;">
           <img
             src="~/assets/img/img_170.png"
@@ -17,8 +17,8 @@
             style="position: absolute;left:10px;color: rgb(255, 255, 255);font-family: HappyZcool-2016,sans-serif;font-size: 120px;font-weight: 400;line-height: 137px;letter-spacing: 0px;text-align: center;">
             农用机械</p>
         </div>
-
-        <div style="position: absolute;left:530px;top:0;height: 400px;width:300px;">
+        <div class="block2"
+          style="position: absolute;left:530px;top:0;height: 400px;width:300px;">
           <div style="position: absolute;top:0;left:0;height: 180px;width:300px;text-align:center;">
             <img
               style="position: relative;top:0px;left:0px;height: 180px;width:300px;"
@@ -38,7 +38,8 @@
             </p>
           </div>
         </div>
-        <div style="left:860px;position: absolute;top:0;height: 400px;width:180px;">
+        <div class="block3"
+          style="left:860px;position: absolute;top:0;height: 400px;width:180px;">
           <div style="top:0;position: absolute;height: 180px;width:180px;">
             <img src="~/assets/img/img_173.png"
                  style="top:0;position: absolute;height: 180px;width:180px;">
@@ -56,7 +57,8 @@
             </p>
           </div>
         </div>
-        <div style="left:1080px;position: absolute;top:0;height: 400px;width:180px;">
+        <div class="block4"
+          style="left:1080px;position: absolute;top:0;height: 400px;width:180px;">
           <div style="top:0;position: absolute;height: 180px;width:180px;">
             <img src="~/assets/img/img_175.png"
                  style="top:0;position: absolute;height: 180px;width:180px;">
@@ -78,11 +80,11 @@
 
     </div>
     <div class="dynamic">
-      <div class = "tag_dynamic">
+      <div class="tag_dynamic">
         <svg-icon style="font-size: 200px; position: absolute; top: -50px; left: 10px;" icon-class="dynamic"/>
       </div>
       <div class="body"
-        style="position: absolute;height: 1580px;width: 1240px;top:100px;left: 40px;">
+           style="position: absolute;height: 1580px;width: 1240px;top:100px;left: 40px;">
         <div class="video"
              style="background-color: #F6BE50; position: absolute; top:0px;height: 80px;width: 380px;left: 0px;text-align: center;">
           <svg-icon style="font-size: 80px; position: absolute; top: 0px; left: 10px;" icon-class="video"/>
@@ -210,8 +212,41 @@
       <div class="tag_order">
         <svg-icon style="font-size: 200px; position: absolute; top: -50px; left: 10px;" icon-class="order"/>
       </div>
-      <div class ="body">
-
+      <div class="body"
+           style="position: absolute;height: 360px;width: 1240px;top:100px;left: 40px;">
+        <div class="block1"
+             style="position: absolute;height: 360px;width: 410px;top:0px;left: 0px;">
+          <div class="circle"
+               style="background: rgba(24, 77, 71, 0.64);position: absolute;border-radius: 130px; height: 260px;width: 260px;left: 75px;top: 20px">
+            <svg-icon style="font-size: 180px; position: absolute; top: 40px; left: 40px;" icon-class="manage"/>
+          </div>
+          <p
+            style="position: absolute;bottom: -40px;left:70px;width:260px;height:40px;color: rgb(24, 77, 71);text-align: center; font-family: HappyZcool-2016,sans-serif;font-size: 52px;font-weight: 400;line-height: 59px;letter-spacing: 0px;">
+            订单管理
+          </p>
+        </div>
+        <div class="block2"
+             style="position: absolute;height: 360px;width: 420px;top:0px;left: 410px;">
+          <div class="circle"
+               style="background: rgb(246, 190, 80);position: absolute;border-radius: 130px; height: 260px;width: 260px;left: 75px;top: 20px">
+            <svg-icon style="font-size: 180px; position: absolute; top: 40px; left: 40px;" icon-class="sell"/>
+          </div>
+          <p
+            style="position: absolute;bottom: -40px;left:70px;width:260px;height:40px;color: rgb(24, 77, 71);text-align: center; font-family: HappyZcool-2016,sans-serif;font-size: 52px;font-weight: 400;line-height: 59px;letter-spacing: 0px;">
+            促销管理
+          </p>
+        </div>
+        <div class="block3"
+             style="position: absolute;height: 360px;width: 410px;top:0px;right: 0px;">
+          <div class="circle"
+               style="background: rgb(147, 188, 224);position: absolute;border-radius: 130px; height: 260px;width: 260px;left: 75px;top: 20px">
+            <svg-icon style="font-size: 180px; position: absolute; top: 40px; left: 40px;" icon-class="date"/>
+          </div>
+          <p
+            style="position: absolute;bottom: -40px;left:70px;width:260px;height:40px;color: rgb(24, 77, 71);text-align: center; font-family: HappyZcool-2016,sans-serif;font-size: 52px;font-weight: 400;line-height: 59px;letter-spacing: 0px;">
+            保质期管理
+          </p>
+        </div>
       </div>
 
     </div>
@@ -219,10 +254,51 @@
       <div class="tag_income">
         <svg-icon style="font-size: 200px; position: absolute; top: -50px; left: 10px;" icon-class="income"/>
       </div>
+      <div class="body"
+           style="position: absolute;height: 360px;width: 1240px;top:100px;left: 40px;">
+        <div class="block1"
+             style="position: absolute;height: 360px;width: 310px;top:0px;left: 0px;">
+          <div class="square"
+               style="background: rgba(246, 190, 80, 0.53);border-radius: 10px;position: absolute;height: 260px;width: 260px;top:0px;left: 0px;">
+            <svg-icon style="font-size: 230px; position: absolute; top: 16px; left: 16px;" icon-class="incomeinfo"/>
+          </div>
+          <div style="top: 300px;background: rgba(246, 190, 80, 0.14);color: rgb(24, 77, 71);border-radius: 9px;height: 60px;width: 260px;position: absolute;text-align: center; font-family: HappyZcool-2016,sans-serif;font-size: 52px;font-weight: 400;line-height: 59px;letter-spacing: 0px;">
+            基本情况
+          </div>
+        </div>
+        <div class="block2"
+             style="position: absolute;height: 360px;width: 310px;top:0px;left: 310px;">
+          <div class="square"
+               style="background: rgb(251, 157, 193);border-radius: 10px;position: absolute;height: 260px;width: 260px;top:0px;left: 20px;">
+            <svg-icon style="font-size: 230px; position: absolute; top: 16px; left: 16px;" icon-class="product"/>
+          </div>
+          <div style="top: 300px;background: rgba(246, 190, 80, 0.14);color: rgb(24, 77, 71);left: 20px;border-radius: 9px;height: 60px;width: 260px;position: absolute;text-align: center; font-family: HappyZcool-2016,sans-serif;font-size: 52px;font-weight: 400;line-height: 59px;letter-spacing: 0px;">
+            产业结构
+          </div>
+        </div>
+        <div class="block3"
+             style="position: absolute;height: 360px;width: 310px;top:0px;left: 620px;">
+          <div class="square"
+               style="background: rgb(147, 214, 251);border-radius: 10px;position: absolute;height: 260px;width: 260px;top:0px;left: 30px;">
+            <svg-icon style="font-size: 230px; position: absolute; top: 16px; left: 16px;" icon-class="dateanalysis"/>
+          </div>
+          <div style="top: 300px;background: rgba(246, 190, 80, 0.14);color: rgb(24, 77, 71);border-radius: 9px;left: 30px;height: 60px;width: 260px;position: absolute;text-align: center; font-family: HappyZcool-2016,sans-serif;font-size: 52px;font-weight: 400;line-height: 59px;letter-spacing: 0px;">
+            季节性分析
+          </div>
+        </div>
+        <div class="block4"
+             style="position: absolute;height: 360px;width: 310px;top:0px;right: 0px;">
+          <div class="square"
+               style="background: rgba(216, 74, 29, 0.73);border-radius: 10px;position: absolute;height: 260px;width: 260px;top:0px;right: 0px;">
+            <svg-icon style="font-size: 230px; position: absolute; top: 16px; left: 16px;" icon-class="area"/>
+          </div>
+          <div style="top: 300px;background: rgba(246, 190, 80, 0.14);color: rgb(24, 77, 71);right:0;border-radius: 9px;height: 60px;width: 260px;position: absolute;text-align: center; font-family: HappyZcool-2016,sans-serif;font-size: 52px;font-weight: 400;line-height: 59px;letter-spacing: 0px;">
+            区域情况
+          </div>
+        </div>
+      </div>
     </div>
-    <div class = "body">
 
-    </div>
   </div>
 
 </template>
@@ -267,7 +343,7 @@ export default {
   /* 订单管理 */
   position: absolute;
   width: 1325px;
-  height: 480px;
+  height: 510px;
   top: 2480px;
   left: 300px;
   background: rgba(255, 200, 109, 0.1);
@@ -277,8 +353,8 @@ export default {
   /* 收入分析 */
   position: absolute;
   width: 1325px;
-  height: 420px;
-  top: 2960px;
+  height: 520px;
+  top: 2990px;
   left: 300px;
   background: rgba(100, 245, 200, 0.1);
 }
