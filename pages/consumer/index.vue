@@ -1,6 +1,6 @@
 <template>
   <!--  在这里写html,vue前端代码-->
-  <main class="main1">
+  <el-main class="main1">
     <svg-icon class="tip5" icon-class="tip"/>
     <div class="product">
       <div class="div1">
@@ -141,7 +141,7 @@
         </el-carousel-item>
       </el-carousel>
     </div>
-  </main>
+  </el-main>
 </template>
 <script>
 export default {
@@ -274,8 +274,6 @@ export default {
   height: 58px;
   top: 242px;
   left: 282px;
-
-
 }
 
 .product {

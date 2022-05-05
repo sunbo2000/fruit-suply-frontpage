@@ -3,6 +3,8 @@
   <main class="pbmMain">
     <a href="/consumer" style="text-decoration: none;"><h1 align="center">去消费者那康康--></h1></a>
     <a href="/seller" style="text-decoration: none;"><h1 align="center">去经营者那康康--></h1></a>
+    <a href="/admin" style="text-decoration: none;"><h1 align="center">去科技工作者那康康--></h1></a>
+    <a href="/government" style="text-decoration: none;"><h1 align="center">去科技政府人员那康康--></h1></a>
   </main>
 </template>
 
