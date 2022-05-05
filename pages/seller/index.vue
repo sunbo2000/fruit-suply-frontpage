@@ -1,6 +1,7 @@
 <template>
   <!--  卖家页面-->
   <!--  在这里写html,vue前端代码-->
+  <main class="main">
   <div class="seller">
     <div class="supply">
       <div class="tag_supply">
@@ -300,7 +301,7 @@
     </div>
 
   </div>
-
+  </main>
 </template>
 
 <script>
@@ -318,6 +319,12 @@ export default {
 
 </script>
 <style scoped>
+.main{
+  position: relative;
+  width: 100%;
+  height: 2404px;
+  overflow: hidden;
+}
 /*css 代码*/
 /* 矩形 8 */
 .supply { /* 矩形 8 */
