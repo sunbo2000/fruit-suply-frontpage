@@ -11,13 +11,17 @@
   "dependencies": {
     "core-js": "^3.19.3",
     "element-ui": "^2.15.6",
+    "lib-flexible": "^0.3.2",
     "nuxt": "^2.15.8",
+    "postcss-px2rem": "^0.3.0",
+    "save": "^2.5.0",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
     "webpack": "^4.46.0"
   },
   "devDependencies": {
+    "px2rem-loader": "^0.1.9",
     "svg-sprite-loader": "^6.0.11"
   }
 }

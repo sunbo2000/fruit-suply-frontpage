@@ -1,10 +1,11 @@
 <template>
   <!--  在这里写html,vue前端代码-->
 <!--  登录界面-->
-  <div>
+  <el-main style="margin: 0; padding: 0; border: 0">
     <h1>登录 TODO</h1>
-  </div>
-</template>G
+  </el-main>
+
+</template>
 <script>
 export default {
   data() {

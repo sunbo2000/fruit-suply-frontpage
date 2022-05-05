@@ -89,7 +89,6 @@
   padding: 0;
   border: 0;
 }
-
 .pbmHeader {
   position: relative;
   height: 818px;

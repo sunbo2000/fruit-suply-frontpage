@@ -1,12 +1,9 @@
 <template>
   <!--  在这里写html,vue前端代码-->
-  <el-main style="margin: 0; padding: 0; border: 0">
-    <div class="web1">
-      <img class="square4" src="~/assets/img/img_1.png" alt="banner"/>
-      <img class="square5" src="~/assets/img/img_2.png" alt="logo">
-      <div class="des">果宝特供</div>
-    </div>
-  </el-main>
+  <main class="pbmMain">
+    <a href="/consumer" style="text-decoration: none;"><h1 align="center">去消费者那康康--></h1></a>
+    <a href="/seller" style="text-decoration: none;"><h1 align="center">去经营者那康康--></h1></a>
+  </main>
 </template>
 
 <script>
@@ -24,6 +21,14 @@ export default {
 
 </script>
 <style scoped>
+.pbmMain {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+
 /*css 代码*/
 .web1 {
   position: relative;
@@ -65,7 +70,13 @@ export default {
   line-height: 114px;
   letter-spacing: 0px;
   text-align: left;
+}
 
+a {
+  color: cadetblue;
+}
 
+a:hover {
+  color: cornflowerblue;
 }
 </style>

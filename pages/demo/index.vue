@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <el-main style="height: 1845px">
     <!-- 幻灯片 开始 -->
     <div style="width: 100%">
       <el-carousel :interval="4000" type="card" height="415px">
@@ -167,14 +167,15 @@
         </el-carousel-item>
       </el-carousel>
     </div>
-  </div>
+  </el-main>
 </template>
 
 <script>
 export default {
+  layout: 'consumer',
   data() {
     return {
-      layout: 'consumer',
+
       commentList: [
         [{
           avatar: 'https://thirdwx.qlogo.cn/mmopen/vi_32/EsJXOTiakxXib1M0r4FWnXpTWmCEM96ef7SsTEO3BHJttlGMvdyXFRmPYG1qSKDGA22anIrvzRgN3nRNhmEg1R7w/132',

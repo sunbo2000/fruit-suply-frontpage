@@ -7,13 +7,13 @@ export default {
       lang: 'en'
     },
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      {charset: 'utf-8'},
+      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+      {hid: 'description', name: 'description', content: ''},
+      {name: 'format-detection', content: 'telephone=no'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
     ]
   },
 
@@ -25,24 +25,23 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '@/plugins/element-ui',
-    { src: '@/plugins/icons', ssr: true }
+    {src: '@/plugins/icons', ssr: true},
+    {src: '@plugins/lib-flexible.js', ssr: false}
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-  ],
+  buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-  ],
+  modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [/^element-ui/],
-    extend (config, ctx) {
+    extend(config, ctx) {
       // ...
       const svgRule = config.module.rules.find(rule => rule.test.test('.svg'))
       svgRule.exclude = [path.resolve(__dirname, 'assets/svg')]
@@ -55,6 +54,11 @@ export default {
           symbolId: 'icon-[name]'
         }
       })
-    }
+    },
+    postcss: [
+      require('postcss-px2rem')({
+        remUnit: 192  // 之所以写192是因为设了pc最大宽度1920px
+      })
+    ],
   }
 }
