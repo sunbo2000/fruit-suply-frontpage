@@ -322,7 +322,7 @@ export default {
 .main{
   position: relative;
   width: 100%;
-  height: 2404px;
+  height: 8000px;
   overflow: hidden;
 }
 /*css 代码*/
@@ -330,39 +330,39 @@ export default {
 .supply { /* 矩形 8 */
   position: absolute;
   align-content: center;
-  width: 1325px;
-  height: 580px;
+  width: 90%;
+  height: 700px;
   top: 200px;
-  left: 300px;
+  left: 100px;
   background: rgba(215, 245, 109, 0.1);
 }
 
 .dynamic { /* 我的动态 */
   position: absolute;
-  width: 1325px;
-  height: 1700px;
-  top: 780px;
-  left: 300px;
+  width: 90%;
+  height: 2400px;
+  top: 950px;
+  left: 100px;
   background: rgba(255, 100, 100, 0.1);
 }
 
 .orders {
   /* 订单管理 */
   position: absolute;
-  width: 1325px;
-  height: 510px;
-  top: 2480px;
-  left: 300px;
+  width: 90%;
+  height: 700px;
+  top: 3500px;
+  left: 100px;
   background: rgba(255, 200, 109, 0.1);
 }
 
 .income {
   /* 收入分析 */
   position: absolute;
-  width: 1325px;
-  height: 520px;
-  top: 2990px;
-  left: 300px;
+  width: 90%;
+  height: 650px;
+  top: 4200px;
+  left: 100px;
   background: rgba(100, 245, 200, 0.1);
 }
 </style>
