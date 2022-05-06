@@ -162,7 +162,7 @@
 .slogan {
   /* 果宝特供，您的云端农场 */
   position: absolute;
-  width: 400px;
+  width: 430px;
   height: 21px;
   top: 5px;
   left: 783px;

@@ -10,12 +10,14 @@
       <input class="search" placeholder="来看看吧~"></input>
       <el-button size="mini" class="seaSquare">搜索</el-button>
 
-      <a href="/login">
+      <a v-if="user === ''" href="/login">
         <div class="loginLogo">
           <span class="el-icon-user-solid"></span>
         </div>
         <div class="fontLogin">登录</div>
       </a>
+      <a href="#">
+      <img class="avatar1" :src="user.avatar" alt="avatar"/></a>
 
       <a href="#">
         <div class="shopLogo"
@@ -81,8 +83,35 @@
     </footer>
   </div>
 </template>
+<script>
+import cookie from "js-cookie";
+
+export default {
+  data() {
+    return {
+      //  数据
+      user: ''
+    }
+  },
+  created() {
+    let identity = cookie.get("user");
+    if (identity) {
+      this.user = {
+        name: identity,
+        avatar: 'https://thirdwx.qlogo.cn/mmopen/vi_32/EsJXOTiakxXib1M0r4FWnXpTWmCEM96ef7SsTEO3BHJttlGMvdyXFRmPYG1qSKDGA22anIrvzRgN3nRNhmEg1R7w/132',
+      }
+      console.log(this.user)
+    }
+  },
+
+  methods: {
+    //  编写方法
+  }
+}
+
+</script>
 <style scoped>
-.all{
+.all {
   width: 1920px;
   overflow: hidden;
   margin: -10px;
@@ -113,7 +142,7 @@
 .slogan {
   /* 果宝特供，您的云端农场 */
   position: absolute;
-  width: 400px;
+  width: 430px;
   height: 21px;
   top: 5px;
   left: 783px;
@@ -602,6 +631,17 @@
   letter-spacing: 20px;
   text-align: left;
 
-
+}
+.avatar1{
+  /* circle-user */
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 47px;
+  left: 1575px;
+  z-index: 1;
+  border-radius: 50%;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
 }
 </style>

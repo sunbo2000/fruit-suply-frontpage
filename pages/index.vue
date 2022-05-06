@@ -9,13 +9,17 @@
 </template>
 
 <script>
+import cookie from "js-cookie";
+
 export default {
   data() {
     return {
       //  数据
     }
   },
-
+  created() {
+    this.$router.push({path: '/login'});
+  },
   methods: {
     //  编写方法
   }

@@ -10,12 +10,15 @@
       <input class="search" placeholder="来看看吧~"></input>
       <el-button size="mini" class="seaSquare">搜索</el-button>
 
-      <a href="/login">
+      <a v-if="user === ''" href="/login">
         <div class="loginLogo">
           <span class="el-icon-user-solid"></span>
         </div>
         <div class="fontLogin">登录</div>
       </a>
+      <a href="#">
+        <img class="avatar1" :src="user.avatar" alt="avatar"/></a>
+
 
       <a href="#">
         <div class="shopLogo"
@@ -112,7 +115,7 @@
 .slogan {
   /* 果宝特供，您的云端农场 */
   position: absolute;
-  width: 400px;
+  width: 430px;
   height: 21px;
   top: 5px;
   left: 783px;
@@ -602,5 +605,18 @@
   text-align: left;
 
 
+}
+
+.avatar1{
+  /* circle-user */
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 47px;
+  left: 1575px;
+  z-index: 1;
+  border-radius: 50%;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
 }
 </style>
