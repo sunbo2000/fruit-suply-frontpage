@@ -549,7 +549,6 @@ export default {
   align-items: flex-start;
   flex-direction: column;
   background-size: contain;
-  /*background-image: url(~/assets/government/img_23.png);*/
   background-color: rgba(215, 245, 109, 0.1);;
   width: 1330px;
   height: 595px;
